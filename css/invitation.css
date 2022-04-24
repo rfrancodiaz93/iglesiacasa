@@ -1,0 +1,214 @@
+/*invitation page*/
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	background-color: rgba(250,250,250, 0.1);
+
+}
+
+.container{
+
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	position: relative;
+}
+
+article{
+	width: 50%;
+	margin: 1% 25% 0 25%;
+
+}
+
+.logo{
+
+	
+	border-bottom: 4px solid #f3b236;
+	
+}
+
+h3{
+
+	margin: 2% 0;
+}
+.invita{
+	text-transform: uppercase;
+}
+
+h4{
+	text-align: left;
+	margin-left: 20%;
+}
+ul{
+	list-style: none;
+	text-align: left;	
+	padding: 10px;
+	
+	
+}
+
+ul li{
+	margin: 0 0 1% 25%;
+	margin-bottom: 2%;
+}
+
+.anchors{
+
+	color: #1e4258;
+}
+
+.anchors:hover{
+	color:  #f3b236;
+}
+
+.anchors:active{
+
+	color: #f3b236;;
+}
+
+.casa-desktop{
+	display: block;
+	background-color: #1e4258;
+	width: 68%;
+	text-align: center;
+	color: white;
+	padding: 1%;
+	text-decoration: none;
+	font-size: 1.2em;
+	border-radius: 4px;
+
+}
+
+.casa-mobile{
+	display: none;
+}
+
+.casa-desktop:hover{
+	color: white;
+	background-color: #a2c0d2;
+}
+
+footer{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 1%;
+	
+	
+}
+
+.footer-text{
+	
+	width: 50%;
+	margin: 0 25%;
+	padding: 0.5% 0;
+	text-align: center;
+	border-radius: 8px;
+	background-color: rgba(240, 240, 240, 1.0);
+}
+
+@media screen and (max-width: 700px) {
+
+	body, container{
+		margin: 0;
+		padding: 0;
+	}
+	article{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+		
+
+	}
+
+	.logo{
+
+		width: 90%;
+		margin: 0 5%;
+		border-bottom: 2px solid #f3b236;
+		
+	}
+
+	h3{
+
+		margin: 10% 0;
+		font-size: 2em;
+		color: #1e4258;
+	}
+	.servicio-wrapper{
+		width: 90%;
+		margin: 5%;
+		padding: 10% 0;
+		background-color: rgba(240, 240, 240, 1.0);
+		border-radius: 8px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+	h4{
+		
+		font-size: 1.7em;
+		font-weight: bold;
+	}
+	ul{
+		list-style: none;
+		font-size: 1.5em;		
+		
+	}
+
+	ul li{
+		
+		margin: 0 0 4% 25%;
+		
+	}
+
+	.anchors{
+
+		color: #1e4258;
+	}
+
+	.anchors:hover{
+		color:  #f3b236;
+	}
+
+	.casa-desktop{
+		display: none;
+	}
+
+	.casa-mobile{
+		display: block;
+		background-color: #1e4258;
+		color: white;
+		text-decoration: none;
+		font-size: 1.2em;
+		left: 0;
+		width: 90%;
+		margin: 0 5%;
+		border-radius: 2px;
+		padding: 2% 0;
+	}
+
+	footer{
+		position: relative;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
+	.footer-text{
+		
+		width: 100%;
+		margin: 2% 0 0 0 ;
+		text-align: center;
+		border-radius: 0;
+		color: white;
+		background-color: #1e4258;
+	}
+
+}
