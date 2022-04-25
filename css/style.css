@@ -97,6 +97,17 @@ article ul{
 	line-height: 2;
 }
 
+.anchor-address{
+	text-decoration: none;
+	color: rgba(32,73,98,1);
+	
+
+}
+
+.anchor-address:hover{
+	text-decoration: underline solid #f3b237;;
+	color: #f3b237;
+}
 
 /*bottom pages styling*/
 .bottom-wrapper{
